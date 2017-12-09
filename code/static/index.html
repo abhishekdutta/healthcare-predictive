@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello!</title>
+	<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css" />
+
+	<style type="text/css">
+	.ui.grid {
+		margin: 0;
+	}
+
+	.ui.fixed {
+		padding: 10px 20px;
+	}
+
+	div {
+		box-sizing: border-box;
+	}
+
+	.deadline {
+		stroke: grey;
+		stroke-dasharray: 2, 2;
+	}
+
+	.deadline.hw {
+		stroke: green;
+	}
+
+	.deadline.project {
+		stroke: red;
+	}
+	</style>
+</head>
+<body>
+	<div class="four wide column" align="center"></div>
+
+	<div id="chart" style="height: 600px"></div>
+
+			<!-- <div class="four wide column" align="center">
+				<div id="avgTime" style="width: 60%;"></div>
+				<div>AVG MINUTES PER TICKET</div>
+			</div> -->
+		
+		<!-- <div class="ui grid">	
+			<div class="six wide column" id="scatterPlot" style="vertical-align: bottom;"></div>
+			<div class="ten wide column" id="barchart" style="vertical-align: bottom;"></div>
+		</div>
+ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+	<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.js"></script>
+	<script type="text/javascript" src="static/graph.js"></script>
+	<script type="text/javascript">
+	// Draw data for course
+	    window.onload = function () {
+	    drawTicketsVis;
+	  };
+	</script>
+
+</body>
+</html>

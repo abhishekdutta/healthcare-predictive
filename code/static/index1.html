@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello!</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
+
+		<style type="text/css">
+			body, html {width: 100%; 
+				height: 100%;}
+
+			#demo
+			{
+				position: fixed;
+				top: 17px;
+				left: 13px;
+				resize: both;
+    			overflow: auto;
+				float:left;
+				width: auto;
+				height: 90%;
+				background-color: red;
+				display: none;
+				font-size: 15px;
+			}
+			#table1
+			{
+				border-collapse: collapse;
+			   float:left;
+			   width: 100%;
+			   height: 100%;
+			   max-height: 100%;
+			   table-layout: fixed;
+
+			}
+			#tr1
+			{
+				height: 20%;
+				max-height: 20vh;
+			}
+			#td121, #td131 {
+				position: absolute;
+				top: 10px;
+				display: block;
+				float: left;
+				resize: vertical;
+				width: 19.5vw;
+				height: 20vh;
+				overflow: auto;
+				background-color: skyblue;
+				min-height: 20vh;
+
+			}
+			#td12, #td13, #td2, #td3 {
+				vertical-align: 0px;
+				/*max-height: 20%;*/
+			}
+			.ud 
+			{
+				/*width: 17.5%;*/
+			}
+			td
+			{
+				border-style: dotted;
+			}
+			.submit
+			{
+			    margin:0 auto; 
+			    display: block;
+			    text-align: center;
+			    position: sticky;
+			    bottom: 0;
+			}
+			#fb {
+				position: absolute;
+				top: 0px;
+				left: 0px; 
+			    display: block;	
+			    font-size: 10px
+			}
+
+			body {
+			  font: 10px sans-serif;
+			  /*margin: 50px;*/
+			}
+			 
+			.grid .tick {
+				stroke: lightgrey;
+				opacity: 0.7;
+				shape-rendering: crispEdges;
+			}
+			 
+			.grid path {
+				stroke-width: 0;
+			}
+			
+			.y.axis {
+				display: none;
+			}
+			.axis path {
+				fill: none;
+				stroke: #bbb;
+				shape-rendering: crispEdges;
+			}
+			 
+			.axis text {
+				fill: #555;
+			}
+			 
+			.axis line {	
+				stroke: #e7e7e7;
+				shape-rendering: crispEdges;
+			}
+			 
+			.axis .axis-label {
+				font-size: 14px;
+			}
+			 
+			#ECG, #SpO2, #Pleth, #Respiration_Rate, #Heart_Rate, #mean, #systolic, #diastolic, #Respiration_Rate-, #etCO2 {
+				fill: none;
+				stroke-width: 1.5px;
+			}
+			 
+			.dot {
+				/* consider the stroke-with the mouse detect radius? */
+				/*position: absolute;*/
+				stroke: transparent;
+				stroke-width: 10px;  
+				cursor: pointer;
+			}
+			.alarm {
+				opacity: 0.3;
+			}
+			 
+			/*.dot:hover {
+				stroke: rgba(68, 127, 255, 0.3);
+			}*/
+		</style>
+	</head>
+	<body>
+		<button type="button" id="fb">Settings</button>
+		<table id = "table1">
+			<tr id= "tr1">
+				<td class ="ud" id= "td11"></td>
+				<td class ="ud" id= "td12">
+					<div id= "td121"></div>
+				</td>
+				<td class ="ud" id= "td13">
+					<div id= "td131"></div>
+				</td>
+				<!-- <td class ="ud" id= "td14"></td> -->
+
+				<td id= "td2"></td>
+				<td id= "td3"></td>
+			</tr>
+			<tr>
+				<td colspan="5" id= "td4"></td>
+			</tr>
+		</table>
+		<div class="collapse" id= "demo" >
+			<input class="alarmhide" type="checkbox"/>Show/Hide Alarm Lines <br>
+			<ul id="graphlist" style="list-style: none;"/>GRAPHED ATTRIBUTES:
+				<li><input type="checkbox" class="graph" value="ECG" checked/>ECG</li>
+				<li><input type="checkbox" class="graph" value="SpO2" checked/>SpO2</li>
+				<li><input type="checkbox" class="graph" value="Pleth" checked/>Pleth</li>
+				<li><input type="checkbox" class="graph" value="Respiration_Rate" checked/>Respiration Rate</li>
+				<li><input type="checkbox" class="graph" value="Heart_Rate" checked/>Heart Rate</li>
+				<li>
+					<ul style="list-style: none;">Non-invasive Blood Pressure
+						<li><input type="checkbox" class="graph" value="mean" checked/>mean</li>
+						<li><input type="checkbox" class="graph" value="systolic" checked/>systolic</li>
+						<li><input type="checkbox" class="graph" value="diastolic" checked/>diastolic</li>
+					</ul>
+				</li>
+				<li>
+					<ul style="list-style: none;">Airway
+						<li><input type="checkbox" class="graph" value="Respiration_Rate-" checked/>Respiration Rate</li>
+						<li><input type="checkbox" class="graph" value="etCO2" checked/>etCO2</li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="alarmlist"><p>ALARMS</p>
+				<li>Alarm Kinds
+					<ol id="kinds">
+					</ol>
+				</li>
+				<li>Source
+					<ol id="source">
+					</ol>
+				</li>
+				<li>State
+					<ol id="state">
+					</ol>
+				</li>
+				<li>Code
+					<ol id="code">
+					</ol>
+				</li>
+				<li>Type
+					<ol id="type">
+					</ol>
+				</li>
+				<li>String
+					<ol id="string">
+					</ol>
+				</li>
+			</ul>
+			<ul id="qoslist" type="a"><p>QOS</p>
+			</ul>
+			<div class="submit">
+				<textarea rows="4" cols="20" >Enter your logical command!</textarea><br>
+				<button id="sb">Submit</button>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="static/graph1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// $('#alarmhide').attr("checked", false);
+				// $("#td121").attr("width", $("#td12").width());
+				// $("#td121").attr("height", $("#td12").height());
+				var sv = d3.select("#td2").append("svg")
+					.attr("id", "s2")
+				    .attr("width", $("#td121").width())
+				    .attr("height", $("#td121").height())
+					.append("g")
+				    .attr("transform", "translate(0,0)");
+
+				sv.append('line')
+					.attr('class', '.defining')
+					.style("stroke-dasharray", ("3, 3"))
+					.attr("x1", 0)
+				    .attr("y1", $("#s2").height() - 8)
+				    .attr("x2", $("#s2").width())
+				    .attr("y2", $("#s2").height() - 8)
+				    .attr('stroke', 'black');
+
+
+				var sv2 = d3.select("#td3").append("svg")
+					.attr("id", "s3")
+				    .attr("width", $("#td121").width())
+				    .attr("height", $("#td121").height())
+					.append("g")
+				    .attr("transform", "translate(0,0)");
+
+				sv2.append('line')
+					.attr('class', '.defining')
+					.style("stroke-dasharray", ("3, 3"))
+					.attr("x1", 0)
+				    .attr("y1", $("#s3").height() - 8)
+				    .attr("x2", $("#s3").width())
+				    .attr("y2", $("#s3").height() - 8)
+				    .attr('stroke', 'black');
+
+
+				themainfunc;
+			});
+		</script>
+	</body>
+</html>
