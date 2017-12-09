@@ -1,0 +1,304 @@
+"ECG"	type: list, number of nulls: 197172, number of values: 205991
+          count       mean        std        min        25%        50%  \
+count  205991.0  205991.00  205991.00  205991.00  205991.00  205991.00   
+mean       64.0     -17.12       0.05     -17.21     -17.15     -17.13   
+std         0.0      20.22       0.66      20.13      20.19      20.22   
+min        64.0     -40.96       0.00     -40.96     -40.96     -40.96   
+25%        64.0     -40.96       0.00     -40.96     -40.96     -40.96   
+50%        64.0      -0.06       0.02      -0.32      -0.11      -0.07   
+75%        64.0      -0.02       0.06      -0.09      -0.05      -0.03   
+max        64.0     162.00      93.39     141.64     168.16     174.01   
+
+            75%       max  
+count  2.06e+05  2.06e+05  
+mean  -1.71e+01 -1.70e+01  
+std    2.03e+01  2.04e+01  
+min   -4.10e+01 -4.10e+01  
+25%   -4.10e+01 -4.10e+01  
+50%   -4.38e-02 -7.11e-15  
+75%    6.25e-03  8.50e-02  
+max    1.97e+02  2.03e+02  
+"Respiration Rate"	type: unicode, number of nulls: 351696, number of values: 51467
+"timestamp"	type: unicode, number of nulls: 0, number of values: 403163
+"SpO2"	type: unicode, number of nulls: 350417, number of values: 52746
+"Pleth"	type: list, number of nulls: 197179, number of values: 205984
+           count       mean        std        min        25%        50%  \
+count  205984.00  205984.00  205984.00  205984.00  205984.00  205984.00   
+mean       32.00    1961.46     163.69    1729.05    1826.92    1953.34   
+std         0.08     409.79     205.48     445.42     437.90     453.49   
+min         8.00       0.00       0.00       0.00       0.00       0.00   
+25%        32.00    1780.77       0.00    1395.00    1553.00    1733.00   
+50%        32.00    2047.00      92.84    1922.00    2047.00    2047.00   
+75%        32.00    2048.00     261.05    2047.00    2047.00    2048.00   
+max        32.00    4094.00    1967.44    4094.00    4094.00    4094.00   
+
+             75%        max  
+count  205984.00  205984.00  
+mean     2091.91    2220.87  
+std       478.96     488.84  
+min         0.00       0.00  
+25%      1937.00    2047.00  
+50%      2047.00    2048.00  
+75%      2262.00    2503.00  
+max      4094.00    4094.00  
+"Airway"	type: dict, number of nulls: 0, number of values: 403163
+	"Respiration Rate"	type: None, number of nulls: 403163, number of values: 0
+	"etCO2"	type: None, number of nulls: 403163, number of values: 0
+"alarms"	type: dict, number of nulls: 362942, number of values: 40221
+	"Alarm_T_2"	type: dict, number of nulls: 0, number of values: 7217
+		"source"	type: unicode, number of nulls: 0, number of values: 7217
+		"state"	type: int, number of nulls: 0, number of values: 7217
+count     7217
+unique       3
+top          0
+freq      5813
+dtype: int64
+		"code"	type: unicode, number of nulls: 0, number of values: 7217
+		"type"	type: unicode, number of nulls: 0, number of values: 7217
+		"string"	type: unicode, number of nulls: 0, number of values: 7217
+	"Alarm_T_3"	type: dict, number of nulls: 0, number of values: 377
+		"source"	type: unicode, number of nulls: 0, number of values: 377
+		"state"	type: int, number of nulls: 0, number of values: 377
+count     377
+unique      2
+top         0
+freq      374
+dtype: int64
+		"code"	type: unicode, number of nulls: 0, number of values: 377
+		"type"	type: unicode, number of nulls: 0, number of values: 377
+		"string"	type: unicode, number of nulls: 0, number of values: 377
+	"Alarm_T_0"	type: dict, number of nulls: 0, number of values: 39483
+		"source"	type: unicode, number of nulls: 0, number of values: 39483
+		"state"	type: int, number of nulls: 0, number of values: 39483
+count     39483
+unique        3
+top           0
+freq      26657
+dtype: int64
+		"code"	type: unicode, number of nulls: 0, number of values: 39483
+		"type"	type: unicode, number of nulls: 0, number of values: 39483
+		"string"	type: unicode, number of nulls: 0, number of values: 39483
+	"Alarm_T_1"	type: dict, number of nulls: 0, number of values: 30607
+		"source"	type: unicode, number of nulls: 0, number of values: 30607
+		"state"	type: int, number of nulls: 0, number of values: 30607
+count                 30607
+unique                    3
+top       AL_SILENCED_RESET
+freq                  16206
+dtype: object
+		"code"	type: unicode, number of nulls: 0, number of values: 30607
+		"type"	type: unicode, number of nulls: 0, number of values: 30607
+		"string"	type: unicode, number of nulls: 0, number of values: 30607
+	"Alarm_P_0"	type: dict, number of nulls: 0, number of values: 6767
+		"source"	type: unicode, number of nulls: 0, number of values: 6767
+		"state"	type: unicode, number of nulls: 0, number of values: 6767
+		"code"	type: unicode, number of nulls: 0, number of values: 6767
+		"type"	type: unicode, number of nulls: 0, number of values: 6767
+		"string"	type: unicode, number of nulls: 0, number of values: 6767
+"qos"	type: int, number of nulls: 0, number of values: 403163
+count    403163.00
+mean          0.47
+std           0.61
+min          -1.00
+25%           0.00
+50%           1.00
+75%           1.00
+max           1.00
+dtype: float64
+"Heart Rate"	type: unicode, number of nulls: 351696, number of values: 51467
+"Non-invasive Blood Pressure"	type: dict, number of nulls: 0, number of values: 403163
+	"mean"	type: int, number of nulls: 352319, number of values: 50844
+count            50844
+unique              31
+top       Not a number
+freq             11806
+dtype: object
+	"systolic"	type: int, number of nulls: 352415, number of values: 50748
+count            50748
+unique              44
+top       Not a number
+freq             11853
+dtype: object
+	"diastolic"	type: int, number of nulls: 353038, number of values: 50125
+count            50125
+unique              34
+top       Not a number
+freq             11806
+dtype: object
+
+
+
+
+
+"ECG":
+	"std":
+		"max": 95.50710781535564
+		"min": 0.0
+	"mean":
+		"max": 123.13812499999995
+		"min": -40.96
+"alarms":
+	"Alarm_T_2":
+		"source":
+			"NOM_PULS_OXIM_SAT_O2": 9316
+			"NOM_PRESS_BLD_NONINV": 9
+			"NOM_ECG_ELEC_POTL": 13087
+		"state":
+			0: 20640
+			"AL_SILENCED_RESET": 1764
+			"AL_NEW_ALERT": 8
+		"code":
+			"NOM_EVT_WAVE_OSCIL_ABSENT": 6
+			"NOM_EVT_LEADS_OFF": 13087
+			"NOM_EVT_SENSOR_DISCONN": 9310
+			"NOM_EVT_MSMT_INTERRUP": 9
+		"type":
+			"MED_PRI_T_AL": 22412
+		"string":
+			"ECG": 13087
+			"NBP": 9
+			"SpO": 9316
+	"Alarm_T_3":
+		"source":
+			"NOM_OBJ_NETWORK": 6
+			"NOM_PULS_OXIM_SAT_O2": 6
+			"NOM_RESP": 9309
+		"state":
+			0: 9313
+			"AL_NEW_ALERT": 8
+		"code":
+			"NOM_EVT_STAT_LEARN": 6
+			"NOM_EVT_LEADS_OFF": 9309
+			"NOM_EVT_MALF": 6
+		"type":
+			"LOW_PRI_T_AL": 6
+			"MED_PRI_T_AL": 9315
+		"string":
+			"Resp": 9309
+			"SpO": 6
+			"No": 6
+	"Alarm_T_0":
+		"source":
+			"NOM_OBJ_NETWORK": 25
+			"NOM_PULS_OXIM_SAT_O2": 234
+			"NOM_PRESS_BLD_NONINV": 9310
+			"NOM_ECG_ELEC_POTL": 2
+			"NOM_RESP": 40723
+			"NOM_ECG_LEAD_LL": 4
+		"state":
+			0: 39056
+			"AL_SILENCED_RESET": 11174
+			"AL_NEW_ALERT": 68
+		"code":
+			"NOM_EVT_MSMT_INTERRUP": 8256
+			"NOM_EVT_LEADS_OFF": 40725
+			"NOM_EVT_LEAD_DISCONN": 4
+			"NOM_EVT_MSMT_FAIL": 1054
+			"NOM_EVT_STAT_LEARN": 36
+			"NOM_EVT_WAVE_SIG_QUAL_ERR": 134
+			"NOM_EVT_SUST": 4
+			"NOM_EVT_MALF": 25
+			"NOM_EVT_SIG_LO": 60
+		"type":
+			"LOW_PRI_T_AL": 234
+			"MED_PRI_T_AL": 50064
+		"string":
+			"ECG": 2
+			"No": 25
+			"Resp": 40723
+			"NBP": 9310
+			"SpO": 234
+			"LL": 4
+	"Alarm_T_1":
+		"source":
+			"NOM_PULS_OXIM_SAT_O2": 10440
+			"NOM_PRESS_BLD_NONINV": 2395
+			"NOM_RESP": 257
+			"NOM_ECG_ELEC_POTL": 37197
+		"state":
+			0: 40691
+			"AL_SILENCED_RESET": 9544
+			"AL_NEW_ALERT": 54
+		"code":
+			"NOM_EVT_NOISY": 153
+			"NOM_EVT_WAVE_OSCIL_ABSENT": 228
+			"NOM_EVT_MSMT_INTERRUP": 2316
+			"NOM_EVT_LEADS_OFF": 37453
+			"NOM_EVT_MSMT_FAIL": 79
+			"NOM_EVT_MSMT_RANGE_UNDER": 24
+			"NOM_EVT_SENSOR_DISCONN": 10036
+		"type":
+			"MED_PRI_T_AL": 50289
+		"string":
+			"ECG": 37197
+			"Resp": 257
+			"NBP": 2395
+			"SpO": 10440
+	"Alarm_T_4":
+		"source":
+			"NOM_RESP": 1
+		"state":
+			0: 1
+		"code":
+			"NOM_EVT_LEADS_OFF": 1
+		"type":
+			"MED_PRI_T_AL": 1
+		"string":
+			"Resp": 1
+	"Alarm_P_0":
+		"source":
+			"NOM_PULS_OXIM_SAT_O2": 589
+			"NOM_PRESS_BLD_NONINV_SYS": 831
+		"state":
+			0: 880
+			"AL_LATCHED": 529
+			"AL_SILENCED_RESET": 4
+			"AL_NEW_ALERT": 7
+		"code":
+			"NOM_EVT_LO": 1061
+			"NOM_EVT_DESAT": 359
+		"type":
+			"HI_PRI_P_AL": 359
+			"MED_PRI_P_AL": 1061
+		"string":
+			"": 1420
+"Respiration Rate":
+	"max": 30
+	"min": 5
+"Heart Rate":
+	"max": 111
+	"min": 72
+"Airway":
+	"etCO2":
+		"max": -9223372036854775808
+		"min": 9223372036854775807
+	"Respiration Rate":
+		"max": -9223372036854775808
+		"min": 9223372036854775807
+"Pleth":
+	"std":
+		"max": 1967.4332567992433
+		"min": 0.0
+	"mean":
+		"max": 4094.0
+		"min": 0.0
+"timestamp":
+	"max": "1982-06-25T23:55:58.048000"
+	"min": "1982-06-25T00:18:52.496000"
+"SpO2":
+	"max": 100.0
+	"min": 52.6
+"Non-invasive Blood Pressure":
+	"diastolic":
+		"max": 102
+		"min": 42
+	"systolic":
+		"max": 145
+		"min": 71
+	"mean":
+		"max": 112
+		"min": 53
+"qos":
+	0: 155215
+	1: 220065
+	-1: 38055
