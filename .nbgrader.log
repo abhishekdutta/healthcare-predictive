@@ -1,0 +1,57 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/sherryleo/Documents/course/Project with Ugur/healthcare-predictive
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=a2406a657d0afc54d60038d4dd35c96694e7aa546f3c6b6f
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=a2406a657d0afc54d60038d4dd35c96694e7aa546f3c6b6f
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /demo.gif (::1) 21.69ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /tree/demo.gif (::1) 3.07ms referer=http://localhost:8888/tree/notebooks
+[NotebookApp | WARNING] Notebook notebooks/LSTM Multivariate Forecasting.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 8c2d43b4-8fb2-4988-945e-b630b718f7fc
+[NotebookApp | INFO] Kernel restarted: 8c2d43b4-8fb2-4988-945e-b630b718f7fc
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
+[NotebookApp | INFO] Kernel restarted: 8c2d43b4-8fb2-4988-945e-b630b718f7fc
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
+[NotebookApp | INFO] Kernel restarted: 8c2d43b4-8fb2-4988-945e-b630b718f7fc
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
+[NotebookApp | INFO] Kernel restarted: 8c2d43b4-8fb2-4988-945e-b630b718f7fc
+[NotebookApp | INFO] Saving file at /notebooks/LSTM Multivariate Forecasting.ipynb
