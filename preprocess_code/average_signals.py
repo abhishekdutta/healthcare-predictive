@@ -4,8 +4,8 @@ import numpy as np
 
 fieldnames = ['timestamp','ECG','Respiration Rate','SpO2','Pleth','Heart Rate','etCO2','diastolic BP','systolic BP','mean BP','qos','alarms']
 
-csv_file = csv.reader(open("data/ECG_merged.csv"))
-writer = csv.writer(open('ECG_avg.csv','w'))
+csv_file = csv.reader(open("../../clean_data/Current_Model/window_alarms.csv"))
+writer = csv.writer(open('../../clean_data/Current_Model/ECG_5mins_avg.csv','w'))
 next(csv_file)
 writer.writerow(fieldnames)
 
