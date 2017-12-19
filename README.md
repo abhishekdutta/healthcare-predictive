@@ -44,7 +44,7 @@ Converted data to time series data + padding (max number of signals required to 
 
 ---------------------------------------------------------
 
-### Stage 5 (Training the Model: Machine Learning):
+### Stage 5 (Training the Model- Machine Learning):
 train_model.ipynb
 
 Trained the model for a single-label classification using One Class SVM (Accuracy: 99.866%)
