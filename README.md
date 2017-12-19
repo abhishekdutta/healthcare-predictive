@@ -3,7 +3,7 @@
 ### Stage 1 (Preprocessing):
 
 #### A) Extracting Good Quality Data with qOS = 1:
-Actual data: 5-25-5-26.csv
+Actual data: 5-25-5-26.csv or data.txt (JSON format) <br />
 preprocess-5-25-5-26.py -----> 5-25-5-26_good.csv
 
 #### B) Filter data using manual annotations to mark signals:
