@@ -2,15 +2,15 @@
 
 ### Stage 1 (Preprocessing):
 
-### A) Extracting Good Quality Data with qOS = 1:
+#### A) Extracting Good Quality Data with qOS = 1:
 Actual data: 5-25-5-26.csv
 preprocess-5-25-5-26.py -----> 5-25-5-26_good.csv
 
-### B) Filter data using manual annotations to mark signals:
+#### B) Filter data using manual annotations to mark signals:
 Actual data: 5-25-5-26_good.csv
 filter_annotated_ECG.py -----> 5-25-5-26_ECG.csv
 
-### C) Sorting and deduplication of data:
+#### C) Sorting and deduplication of data:
 sort_and_remove_duplicates.py
 
 Actual data: 5-25-5-26_ECG.csv
