@@ -15,7 +15,7 @@ sort_and_remove_duplicates.py
 
 Actual data: 5-25-5-26_ECG.csv <br/>
 Sorted the data based on timestamps -----> ECG_sorted.csv <br/>
-De-duplicated data based on timestamps and 
+De-duplicated data based on timestamps and <br/>
 merged values from different rows with same timestamp -----> ECG_sorted_unique.csv
 
 ---------------------------------------------------------
@@ -41,7 +41,7 @@ time_series_preprocess.py
 
 Actual data: ECG_window.csv <br/>
 Transformed features from vertical data to horizontal data for training process <br/>
-Converted data to time series data + 
+Converted data to time series data + <br/>
 padding (max number of signals required to raise an alarm) -----> ECG_time_series.csv
 
 ---------------------------------------------------------
