@@ -223,3 +223,124 @@
 [NotebookApp | CRITICAL] Shutdown confirmed
 [NotebookApp | INFO] Shutting down kernels
 [NotebookApp | INFO] Kernel shutdown: 8c1dcf45-3db5-4868-ae6e-ed4e165e6d22
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/sherryleo/Documents/course/Project with Ugur/healthcare-predictive
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=9d6acb5e08e241196f9a9fbff1ddf39959f1c3a279444e93
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=9d6acb5e08e241196f9a9fbff1ddf39959f1c3a279444e93
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /demo.gif (::1) 11.20ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /tree/demo.gif (::1) 1.41ms referer=http://localhost:8888/tree/Visualization
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /tree/demo.gif (::1) 1.27ms referer=http://localhost:8888/tree/notebooks
+[NotebookApp | INFO] Kernel started: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Kernel started: 8cea3573-ccd8-4955-9ec6-fd8126761213
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Kernel interrupted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Kernel restarted: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Calculate good quality data ratio.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: bcce50f8-5bfb-4b22-9b0d-8cd394e41828
+[NotebookApp | INFO] Kernel shutdown: 8cea3573-ccd8-4955-9ec6-fd8126761213
