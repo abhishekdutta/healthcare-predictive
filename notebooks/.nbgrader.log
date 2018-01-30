@@ -1,0 +1,43 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/sherryleo/Documents/course/Project with Ugur/healthcare-predictive/notebooks
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=fac2695e16e4d8dd30edc75f610cf0020851d787f955e16d
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=fac2695e16e4d8dd30edc75f610cf0020851d787f955e16d
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /demo.gif (::1) 12.31ms referer=http://localhost:8888/tree
+[NotebookApp | INFO] Kernel started: c0ca3547-e9d0-4574-aa5b-5607a20590c5
+[NotebookApp | INFO] Kernel started: 1f55bb7b-2afb-46e5-9d84-db71fcc84062
+[NotebookApp | INFO] Kernel restarted: 1f55bb7b-2afb-46e5-9d84-db71fcc84062
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 6.46ms
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 15.15ms
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: c0ca3547-e9d0-4574-aa5b-5607a20590c5
+[NotebookApp | INFO] Kernel shutdown: 1f55bb7b-2afb-46e5-9d84-db71fcc84062
