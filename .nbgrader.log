@@ -587,3 +587,135 @@
 [NotebookApp | INFO] Kernel shutdown: 92ca9fbc-e958-4b8f-87f9-9db873ebb787
 [NotebookApp | INFO] Kernel shutdown: e968df60-9cdd-4fde-b196-67485abfb895
 [NotebookApp | INFO] Kernel shutdown: c3713cb2-6b9a-4af7-a983-4c29c3e51a69
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/sherryleo/Documents/course/Project with Ugur/healthcare-predictive
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=59f4561218d28532483af58a812cdf99ac71b92c48859d2b
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=59f4561218d28532483af58a812cdf99ac71b92c48859d2b
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /demo.gif (::1) 12.29ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /tree/demo.gif (::1) 1.84ms referer=http://localhost:8888/tree/notebooks
+[NotebookApp | WARNING] Notebook notebooks/Slice data from alarms - for Goal2.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 4b325cb5-2b29-429a-a7ae-e04b151b61b1
+[NotebookApp | INFO] Kernel started: 2afd3442-6d94-4124-8f68-1f0473dba4a8
+[NotebookApp | INFO] Kernel started: e0c9d570-f5c1-4f6c-8b19-f1f8d8d1df7d
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: 4b325cb5-2b29-429a-a7ae-e04b151b61b1
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Kernel interrupted: e0c9d570-f5c1-4f6c-8b19-f1f8d8d1df7d
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 39.62ms
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Kernel restarted: e0c9d570-f5c1-4f6c-8b19-f1f8d8d1df7d
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/LSTM on sliced datastream.ipynb
+[NotebookApp | INFO] Kernel started: 55eaa707-1c43-4cda-8e5b-957ffff45b9c
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 7.30ms
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 5.07ms
+[NotebookApp | INFO] Kernel started: 757662d8-70ba-4f0f-9629-cae44d5b18ad
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Kernel restarted: 757662d8-70ba-4f0f-9629-cae44d5b18ad
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Kernel restarted: 757662d8-70ba-4f0f-9629-cae44d5b18ad
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocessing original time series data.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocess and QoS shifting.ipynb
+[NotebookApp | INFO] Creating new notebook in /notebooks
+[NotebookApp | INFO] Kernel started: 9730c8b8-53d9-4428-8b4b-070d78414dab
+[NotebookApp | INFO] Saving file at /notebooks/Preprocess without aggregation.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocess without aggregation.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocess without aggregation.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocess without aggregation.ipynb
+[NotebookApp | INFO] Saving file at /notebooks/Preprocess without aggregation.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 4b325cb5-2b29-429a-a7ae-e04b151b61b1
+[NotebookApp | INFO] Kernel shutdown: 2afd3442-6d94-4124-8f68-1f0473dba4a8
+[NotebookApp | INFO] Kernel shutdown: e0c9d570-f5c1-4f6c-8b19-f1f8d8d1df7d
+[NotebookApp | INFO] Kernel shutdown: 55eaa707-1c43-4cda-8e5b-957ffff45b9c
+[NotebookApp | INFO] Kernel shutdown: 757662d8-70ba-4f0f-9629-cae44d5b18ad
+[NotebookApp | INFO] Kernel shutdown: 9730c8b8-53d9-4428-8b4b-070d78414dab

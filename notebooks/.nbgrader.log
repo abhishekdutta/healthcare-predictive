@@ -41,3 +41,182 @@
 [NotebookApp | INFO] Shutting down kernels
 [NotebookApp | INFO] Kernel shutdown: c0ca3547-e9d0-4574-aa5b-5607a20590c5
 [NotebookApp | INFO] Kernel shutdown: 1f55bb7b-2afb-46e5-9d84-db71fcc84062
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/sherryleo/Documents/course/Project with Ugur/healthcare-predictive/notebooks
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=ec2d3ef3715e39d6df8935a459c470975900faee4bc414f5
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=ec2d3ef3715e39d6df8935a459c470975900faee4bc414f5
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/sherryleo/anaconda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /demo.gif (::1) 23.95ms referer=http://localhost:8888/tree
+[NotebookApp | INFO] Kernel started: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel started: 777a9f23-36d0-462f-ba56-a7994dc3b89c
+[NotebookApp | INFO] Kernel started: abc7774a-7d30-4216-b72b-1f98ec4f50f9
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Kernel started: a2c04be3-3b4a-4de9-a528-3388d0f7a122
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | WARNING] Notebook Slice data from alarms - for Goal2.ipynb is not trusted
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 7.85ms
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: abc7774a-7d30-4216-b72b-1f98ec4f50f9
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Read_raw_meteor_files.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Kernel restarted: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] Saving file at /Slice data from alarms - for Goal2.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 37.45ms
+[NotebookApp | WARNING] WebSocket ping timeout after 1289999 ms.
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 85.44ms
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 0.78ms
+[NotebookApp | INFO] 302 GET /notebooks/Calculate%20good%20quality%20data%20ratio.ipynb (::1) 28.66ms
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: a7aca016-fc07-492b-a4a3-ea2f0ba645bc
+[NotebookApp | INFO] Kernel shutdown: 777a9f23-36d0-462f-ba56-a7994dc3b89c
+[NotebookApp | INFO] Kernel shutdown: abc7774a-7d30-4216-b72b-1f98ec4f50f9
+[NotebookApp | INFO] Kernel shutdown: a2c04be3-3b4a-4de9-a528-3388d0f7a122
